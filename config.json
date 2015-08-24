@@ -1,0 +1,6 @@
+{
+	"assets_root":"/",//test config comments
+	"version":"0.0.1",
+	"listen_port":3000,
+	"static_path":["static","uploads","css","styles","lib","scripts","js","images","img","favicon.ico"]
+}

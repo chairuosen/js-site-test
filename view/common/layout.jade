@@ -1,0 +1,17 @@
+doctype html
+html(lang="en")
+    head
+        title= title
+        link(rel="stylesheet" href="/css/style.css")
+        link(rel="stylesheet", href="/lib/highlight/styles/default.css")
+        script(src="/js/vue.js")
+        script(src="/js/zepto.js")
+        script.
+            Vue.directive('disabled', function (value) {
+                this.el.disabled = !!value
+            })
+        script(src="/lib/highlight/highlight.pack.js")
+        block head
+    body
+        block main
+    
